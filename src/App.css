@@ -1,0 +1,63 @@
+#root {
+	height: 100vh;
+}
+
+.wrapper {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	padding: 2em;
+	width: 100%;
+	max-width: 700px;
+	height: 100vh;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+
+.heading {
+	color: #fff;
+	text-align: center;
+	font-size: 5rem;
+	text-shadow: 5px 5px 0 #00000040;
+	font-family: 'adelphi-pe-variable', sans-serif;
+	font-variation-settings: 'slnt' 0, 'opsz' 6, 'wght' 900;
+}
+
+.card {
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	color: #fff;
+	padding: 2em;
+	border-radius: 12px;
+	min-height: 200px;
+}
+
+.card__body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2em;
+}
+
+.btn {
+	border: 2px solid #ffffffcc;
+	width: fit-content;
+	margin: 0% auto;
+	backdrop-filter: brightness(1.5) blur(5px);
+	border-radius: 12px;
+}
+
+.luckyNumber {
+	color: blanchedalmond;
+}
